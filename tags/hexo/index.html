@@ -87,7 +87,7 @@
 <meta name="description" content="作业多如山，未写完，身先死。">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Huaunlanの物語">
-<meta property="og:url" content="http://mograss.github.io/tags/hexo/index.html">
+<meta property="og:url" content="http://mograss.github.io/tags/Hexo/index.html">
 <meta property="og:site_name" content="Huaunlanの物語">
 <meta property="og:description" content="作业多如山，未写完，身先死。">
 <meta property="article:author" content="Huanlan">
@@ -121,13 +121,13 @@
 
 
 
-  <link rel="canonical" href="http://mograss.github.io/tags/hexo/"/>
+  <link rel="canonical" href="http://mograss.github.io/tags/Hexo/"/>
 
 
 
 
 
-  <title>标签: hexo | Huaunlanの物語</title>
+  <title>标签: Hexo | Huaunlanの物語</title>
   
 
 
@@ -237,7 +237,7 @@
 
     <div id="posts" class="posts-collapse">
       <div class="collection-title">
-        <h1>hexo<small>标签</small>
+        <h1>Hexo<small>标签</small>
         </h1>
       </div>
 
@@ -249,37 +249,9 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2020/02/01/%E4%B8%BA%E4%BD%A0%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E4%B8%80%E4%B8%AALive2d%E7%9C%8B%E6%9D%BF%E5%A8%98/" itemprop="url">
+            <a class="post-title-link" href="/2020/03/10/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E6%9D%A5%E5%BF%85%E5%8A%9B%E8%AF%84%E8%AE%BA/" itemprop="url">
               
-                <span itemprop="name">为你的博客添加一个Live2d看板娘</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2020-02-01T14:13:13+08:00"
-              content="2020-02-01" >
-          02-01
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-      
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2020/01/28/%E6%9B%B4%E6%8D%A2Hexo%E4%B8%BB%E9%A2%98%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/" itemprop="url">
-              
-                <span itemprop="name">更换Hexo主题并部署到github</span>
+                <span itemprop="name">如何使用来必力评论</span>
               
             </a>
         
@@ -287,37 +259,9 @@
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
-              datetime="2020-01-28T13:59:00+08:00"
-              content="2020-01-28" >
-          01-28
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-      
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2020/01/27/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/" itemprop="url">
-              
-                <span itemprop="name">如何创建Hexo博客</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2020-01-27T11:41:00+08:00"
-              content="2020-01-27" >
-          01-27
+              datetime="2020-03-10T14:44:44+08:00"
+              content="2020-03-10" >
+          03-10
         </time>
       </div>
 
@@ -394,7 +338,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">6</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -570,6 +514,95 @@
 
   
 
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+
+  <link rel="stylesheet" href="/live2d/css/live2d.css" />
+<div id="landlord">
+    <div class="message" style="opacity:0"></div>
+    <canvas id="live2d" width="180" height="200" class="live2d"></canvas>
+    <div class="hide-button">隐藏</div>
+</div>
+
+<script type="text/javascript">
+    var message_Path = '/live2d/'
+    var home_Path = 'https://mograss.github.io/'  //此处修改为你的域名
+</script>
+
+<script type="text/javascript" src="/live2d/js/live2d.js"></script>
+<script type="text/javascript" src="/live2d/js/message.js"></script>
+<script type="text/javascript">
+    loadlive2d("live2d", "/live2d/model/koharu/koharu.model.json");  //此处为你是用的模型文件，可以修改
+</script>
+<script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+
+<!-- 页面点击小红心-->
+<script type="text/javascript" src="/js/src/love.js"></script>
+
+
+<!--页面点击爆炸烟花
+
+-->
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginModelPath":"assets/","model":{"jsonPath":"live2d-widget-model-koharu"},"display":{"position":"left","width":150,"height":300},"mobile":{"show":false},"log":false,"pluginJsPath":"lib/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+</html>
 
   <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
 
