@@ -105,9 +105,9 @@
 <p>(我是不会告诉你们我的是其他版的:D)</p>
 ]]></content>
       <tags>
+        <tag>hexo</tag>
         <tag>Course</tag>
         <tag>Live2d</tag>
-        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -131,8 +131,8 @@
 <p>然后等待一会儿，然后打开 你的用户名.github.io</p>
 ]]></content>
       <tags>
-        <tag>Course</tag>
         <tag>hexo</tag>
+        <tag>Course</tag>
         <tag>github</tag>
       </tags>
   </entry>
@@ -149,8 +149,8 @@
 <p>然后在浏览器打开<a href="localhost:4000">这个网址</a>就可以看到你的Blog了</p>
 ]]></content>
       <tags>
-        <tag>Course</tag>
         <tag>hexo</tag>
+        <tag>Course</tag>
       </tags>
   </entry>
 </search>
