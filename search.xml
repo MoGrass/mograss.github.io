@@ -1,156 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>NexT集成站内搜索(Local_Search)功能</title>
-    <url>/2020/03/11/%E4%BD%BF%E7%94%A8%E7%AB%99%E5%86%85Local-Search%E5%8A%9F%E8%83%BD/</url>
-    <content><![CDATA[<p>Blog的文章写多了，查找会是一件很麻烦的事情。标签的归档、分类只能起到一丁点的作用。<br>所以就需要一种高效快捷的方法——搜索</p>
-<p>Swiftype 现在要钱了，不过有一段的试用期。<br>Algolia 还可以，在国外，速度比Swiftype块些<br>Local Search 站内搜索，不用我多说了吧?</p>
-<h1 id="安装Local-Search"><a href="#安装Local-Search" class="headerlink" title="安装Local Search"></a>安装Local Search</h1><p>在Cmd输入下列指令</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-generator-searchdb --save</span><br><span class="line">$ npm install hexo-generator-search --save</span><br></pre></td></tr></table></figure>
-<p>输入完了以后打开主题配置_config.yml<br>找到 Local_Search 这一行，把<br><code>enable: false</code>改为<code>enable: true</code></p>
-<p><img src="https://s2.ax1x.com/2020/03/11/8AF7KP.png" alt="8AF7KP.png"></p>
-<p>然后</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ Hexo g</span><br><span class="line">$ Hexo s</span><br></pre></td></tr></table></figure>
-<p>打开Blog就可以看到旁边有个搜索(Search)了</p>
-]]></content>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何使用来必力评论</title>
-    <url>/2020/03/10/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E6%9D%A5%E5%BF%85%E5%8A%9B%E8%AF%84%E8%AE%BA/</url>
-    <content><![CDATA[<h1 id="注册账号"><a href="#注册账号" class="headerlink" title="注册账号"></a>注册账号</h1><p>打开<a href="http://livere.com/" target="_blank" rel="noopener">来必力</a>官网，点击”安装”</p>
-<p><img src="https://s2.ax1x.com/2020/03/10/8PvF58.md.png" alt="8PvF58.md.png"></p>
-<p>然后点击City版本(有钱的直接选择Premium吧awa)点击现在安装。</p>
-<p><img src="https://s2.ax1x.com/2020/03/10/8Pv9bt.png" alt="8Pv9bt.png"></p>
-<p>然后就打开了登陆页面，不过先注册个账号。点击”来必力注册”按钮</p>
-<p><img src="https://s2.ax1x.com/2020/03/10/8PvSKA.md.png" alt="8PvSKA.md.png"></p>
-<p>然后输入你的 “邮箱”,”名称”,”密码”，再把”我已同意并确认 [服务事使用条款] “和”我已同意并确认 [个人信息处理方针] “给按了。</p>
-<p><img src="https://s2.ax1x.com/2020/03/10/8PviUf.png" alt="8PviUf.png"></p>
-<p>接着会出现一个页面，都是韩文，不过不用理，中间的框框翻译过来就是要输入验证码的意思。<br>去邮箱里面找找有没有一个叫做LiveRe的邮件，没有去垃圾箱找找。把验证码给填上。</p>
-<p><img src="https://s2.ax1x.com/2020/03/10/8Pz7bn.png" alt="8Pz7bn.png"></p>
-<h1 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h1><p>输入一下你的网站信息就OK了</p>
-<p>完了以后跳转到一个页面。叫你把Js代码给弄上，不过不需要。找到data-uid</p>
-<p><img src="https://s2.ax1x.com/2020/03/10/8iScM4.md.png" alt="8iScM4.md.png"></p>
-<p>记住这个UID。打开你的主题_config，找到livere_uid这一项，把注释去掉。后面写你的uid<br><code>livere_uid: 你的data-uid</code></p>
-<p><img src="https://s2.ax1x.com/2020/03/10/8ipI7n.png" alt="8ipI7n.png"></p>
-<p>填上以后就可以啦！</p>
-<h1 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h1><p><img src="https://s2.ax1x.com/2020/03/10/8i9wCV.md.png" alt="8i9wCV.md.png"></p>
-<p>华丽的分割线=====-o——————————o-=====华丽的分割线</p>
-<p><img src="https://s2.ax1x.com/2020/03/10/8i9UNq.md.png" alt="8i9UNq.md.png"></p>
-]]></content>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何使用Littleskin我的世界皮肤站</title>
-    <url>/2020/03/09/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Littleskin/</url>
-    <content><![CDATA[<h1 id="Littleskin是什么？"><a href="#Littleskin是什么？" class="headerlink" title="Littleskin是什么？"></a>Littleskin是什么？</h1><p>Littskin是一个公益免费的皮肤站，基于<a href="https://github.com/bs-community/blessing-skin-server" target="_blank" rel="noopener">BS</a>制作。</p>
-<p>基于BS的好处有：</p>
-<ul>
-<li>插件多</li>
-<li>不用MOD</li>
-<li>加入 <a href="https://www.mcmod.cn/class/883.html" target="_blank" rel="noopener">CustomSkinLoader</a> 默认加载列表豪华午餐。</li>
-</ul>
-<h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><h2 id="注册"><a href="#注册" class="headerlink" title="注册"></a>注册</h2><p>打开 <a href="https://littleskin.cn" target="_blank" rel="noopener">Littleskin</a>，注册个Littleskin的账号<br><img src="https://s2.ax1x.com/2020/03/09/8piTgg.png" alt="8piTgg.png"></p>
-<p><img src="https://i.loli.net/2020/03/09/l5g3yNCXxtPAMpU.png" alt="Register2.png"></p>
-<h2 id="登陆"><a href="#登陆" class="headerlink" title="登陆"></a>登陆</h2><p>注册然后登陆你的账户，然后过一会，你的邮箱会有一个名为”Mcskin”的邮件<br>打开，然后点击链接完成验证。<br><img src="https://s2.ax1x.com/2020/03/09/8pifEt.png" alt="8pifEt.png"></p>
-<p>如果没有邮件的话，去<a href="https://littleskin.cn/user" target="_blank" rel="noopener">用户中心</a>，仪表盘，左上角有个”重新发送邮件”。</p>
-<h1 id="找皮肤"><a href="#找皮肤" class="headerlink" title="找皮肤"></a>找皮肤</h1><p>打开<a href="https://littleskin.cn/skinlib" target="_blank" rel="noopener">皮肤库</a>就可以自己找皮肤了。<br><img src="https://s2.ax1x.com/2020/03/09/8pibuj.md.png" alt="8pibuj.md.png"></p>
-<p>随便选一个，然后点击皮肤</p>
-<p><img src="https://s2.ax1x.com/2020/03/09/8pApnJ.md.png" alt="8pApnJ.md.png"></p>
-<p>然后点击”添加衣柜”</p>
-<p><img src="https://s2.ax1x.com/2020/03/09/8pAgu4.md.png" alt="8pAgu4.md.png"></p>
-<h1 id="使用皮肤"><a href="#使用皮肤" class="headerlink" title="使用皮肤"></a>使用皮肤</h1><p>点击你的头像，用户中心。<br><img src="https://s2.ax1x.com/2020/03/09/8pA7vD.png" alt="8pA7vD.png"></p>
-<p>打开以后看侧边栏，有一个”角色管理”。</p>
-<p><img src="https://s2.ax1x.com/2020/03/09/8pEhLQ.png" alt="8pEhLQ.png"></p>
-<p>创建一个角色。</p>
-<p><img src="https://s2.ax1x.com/2020/03/09/8pVKYt.png" alt="8pVKYt.png"></p>
-<p><img src="https://s2.ax1x.com/2020/03/09/8pVrXF.png" alt="8pVrXF.png"></p>
-<p>接着打开衣柜。</p>
-<p><img src="https://s2.ax1x.com/2020/03/09/8pVv1f.png" alt="8pVv1f.png"></p>
-<p><img src="https://s2.ax1x.com/2020/03/09/8pZ89x.md.png" alt="8pZ89x.md.png"></p>
-<p>使用你创建的角色即可！</p>
-<h1 id="登陆游戏"><a href="#登陆游戏" class="headerlink" title="登陆游戏"></a>登陆游戏</h1><p>(注意要用HMCL或者其他支持外置登陆的启动器)</p>
-<p>打开HMCL，点击左上的头像。<br>点击 “+” 号</p>
-<p><img src="https://s2.ax1x.com/2020/03/09/8peEad.md.png" alt="8peEad.md.png"></p>
-<p>再次点击 “+” 号。</p>
-<p><img src="https://s2.ax1x.com/2020/03/09/8peAVH.md.png" alt="8peAVH.md.png"></p>
-<p>然后添加认证服务器</p>
-<p><img src="https://s2.ax1x.com/2020/03/09/8pe9xK.png" alt="8pe9xK.png"></p>
-<p><img src="https://s2.ax1x.com/2020/03/09/8peFqe.png" alt="8peFqe.png"></p>
-<p>输入你的邮箱和Littleskin的密码。</p>
-<p><img src="https://s2.ax1x.com/2020/03/09/8peirD.png" alt="8peirD.png"></p>
-<p>最后打开游戏就可以看到你的皮肤啦！</p>
-]]></content>
-      <tags>
-        <tag>Course</tag>
-        <tag>Minecraft</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>为你的博客添加一个Live2d看板娘</title>
-    <url>/2020/02/01/%E4%B8%BA%E4%BD%A0%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E4%B8%80%E4%B8%AALive2d%E7%9C%8B%E6%9D%BF%E5%A8%98/</url>
-    <content><![CDATA[<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><p>Git<br>Live2d的模型(后面会发)</p>
-<h1 id="下载Live2d插件"><a href="#下载Live2d插件" class="headerlink" title="下载Live2d插件"></a>下载Live2d插件</h1><p>先检查有没有装live2d插件，如何查看插件是否安装了呢？<br>打开根目录下的”package.json”文件，查看里面有没有”hexo-helper-live2d”<br>如果有，请重新安装live2d：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm unistall hexo-helper-live2d</span><br><span class="line">$ npm install hexo-helper-liv2d</span><br></pre></td></tr></table></figure>
-<p>然后去”node_modules”文件夹里面查看有没有一个叫做”live2d-widget”的文件夹。<br>如果有，就安装成功了。</p>
-<h1 id="下载模型并配置-model"><a href="#下载模型并配置-model" class="headerlink" title="下载模型并配置(model)"></a>下载模型并配置(model)</h1><p>去github<a href="https://github.com/xiazeyu/live2d-widget-models.git" target="_blank" rel="noopener">下载</a>大佬的模型<br>下载完了以后把packages里面的随便一个文件夹复制到”node_modules”文件夹里。</p>
-<p>复制完以后打开根目录下的”_config.yml”<br>拉到最底下复制粘贴</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">live2d:</span><br><span class="line">  enable: true</span><br><span class="line">  pluginModelPath: assets&#x2F;</span><br><span class="line">  model:</span><br><span class="line">    use: live2d-widget-model-epsilon2_1  #模板目录，在node_modules里</span><br><span class="line">  display:</span><br><span class="line">    position: right</span><br><span class="line">    width: 150 </span><br><span class="line">    height: 300</span><br><span class="line">  mobile:</span><br><span class="line">    show: false  #是否在手机进行显示</span><br></pre></td></tr></table></figure>
-<h1 id="预览"><a href="#预览" class="headerlink" title="预览"></a>预览</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ hexo g</span><br><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
-<p>查看Live2d效果</p>
-<p>(我是不会告诉你们我的是其他版的:D)</p>
-]]></content>
-      <tags>
-        <tag>hexo</tag>
-        <tag>Course</tag>
-        <tag>Live2d</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>更换Hexo主题并部署到github</title>
-    <url>/2020/01/28/%E6%9B%B4%E6%8D%A2Hexo%E4%B8%BB%E9%A2%98%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/</url>
-    <content><![CDATA[<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><p><a href="https://git-scm.com/download/win" target="_blank" rel="noopener">Git</a></p>
-<h1 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h1><h2 id="选择"><a href="#选择" class="headerlink" title="选择"></a>选择</h2><p>建议使用Next，因为可扩展性强（而且网上教程一大坨）。，可以做出各种乱七八糟的玩意。当然，你也可以使用其他的，不过这里针对的是Next。<br>分别输入下列代码：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ cd 你的blog文件夹</span><br><span class="line">$ cd themes</span><br><span class="line">$ git clone https:&#x2F;&#x2F;github.com&#x2F;iissnan&#x2F;hexo-theme-next</span><br></pre></td></tr></table></figure>
-
-<h2 id="预览"><a href="#预览" class="headerlink" title="预览"></a>预览</h2><p>下载完以后开启blog文件夹，点开里面_config.yml，<br>拉到底下。找到一个叫做themes: xxx的，把xxx改为hexo-themes-next。<br>然后开启hexo，就可以看到主题样子了。</p>
-<h1 id="部署到github"><a href="#部署到github" class="headerlink" title="部署到github"></a>部署到github</h1><p>上传到github让更多人看到。</p>
-<h2 id="创建和设置SSH-Key"><a href="#创建和设置SSH-Key" class="headerlink" title="创建和设置SSH Key"></a>创建和设置SSH Key</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C &quot;你的邮箱&quot;</span><br></pre></td></tr></table></figure>
-<p>然后打开C:/Usere/你的用户名/.ssh/<br>会发现里面有id_rsa和id_rsa.pub这两个东西。<br>再打开<a href="https://github.com" target="_blank" rel="noopener">github</a><br>然后点击你的头像，里面有个”settings”的选项，点击<br>点击完以后打开里面的”SSH and GPG keys”这个选项。点击右上角的”New SSH Key”，然后把id_rsa.pub的内容全部复制到文本框里面。</p>
-<h2 id="下载部署插件"><a href="#下载部署插件" class="headerlink" title="下载部署插件"></a>下载部署插件</h2><p>下载一个叫做”hexo-deployer-git”的插件<br>在cmd输入以下指令</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-deployer-git</span><br></pre></td></tr></table></figure>
-<p>完成</p>
-<h2 id="开始部署"><a href="#开始部署" class="headerlink" title="开始部署"></a>开始部署</h2><p>打开你的Blog文件夹，找到”_cofig.yml”的文件，打开，拉到最底下，修改里面的deploy为以下格式</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: &#39;git&#39;</span><br><span class="line">  repository: https:&#x2F;&#x2F;github.com&#x2F;你的用户名&#x2F;你的用户名.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
-<p>然后打开cmd，输入</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ cd 你的blog文件夹(如果已经进入则可以不输入)</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
-<p>然后等待一会儿，然后打开 你的用户名.github.io</p>
-]]></content>
-      <tags>
-        <tag>hexo</tag>
-        <tag>Course</tag>
-        <tag>github</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>如何创建Hexo博客</title>
-    <url>/2020/01/27/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><p><a href="https://npm.taobao.org/mirrors/node/v12.14.1/node-v12.14.1-x64.msi" target="_blank" rel="noopener">NodeJs</a><br><a href="https://git-scm.com/download/win" target="_blank" rel="noopener">Git</a>(这个以后文章会到，现在随你下载。)</p>
-<h1 id="下载和安装Hexo"><a href="#下载和安装Hexo" class="headerlink" title="下载和安装Hexo"></a>下载和安装Hexo</h1><h2 id="下载安装Node-Js"><a href="#下载安装Node-Js" class="headerlink" title="下载安装Node.Js"></a>下载安装Node.Js</h2><p>下载Node.js下载完以后安装，安装目录什么的自己选。<br>选完目录一直”Next”按钮。安装完以后就要下载Hexo并安装了。</p>
-<h2 id="下载并初始化Hexo"><a href="#下载并初始化Hexo" class="headerlink" title="下载并初始化Hexo"></a>下载并初始化Hexo</h2><p>安装完以后要用npm下载Hexo了(当然也可用官方镜像cnpm下载。)<br>首先创建一个文件夹，然后在cmd输入下列代码：</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> 文件夹的名字</span><br><span class="line">$ npm install -g hexo-cil</span><br></pre></td></tr></table></figure>
-<p>然后进行初始化，</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ hexo init</span><br></pre></td></tr></table></figure>
-<h2 id="预览效果"><a href="#预览效果" class="headerlink" title="预览效果"></a>预览效果</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-<p>然后在浏览器打开<a href="localhost:4000">这个网址</a>就可以看到你的Blog了</p>
-]]></content>
-      <tags>
-        <tag>hexo</tag>
-        <tag>Course</tag>
-      </tags>
-  </entry>
+<search> 
+  
+  
+    
+    <entry>
+      <title>NexT集成站内搜索(Local_Search)功能</title>
+      <link href="/2020/03/11/%E4%BD%BF%E7%94%A8%E7%AB%99%E5%86%85Local-Search%E5%8A%9F%E8%83%BD/"/>
+      <url>/2020/03/11/%E4%BD%BF%E7%94%A8%E7%AB%99%E5%86%85Local-Search%E5%8A%9F%E8%83%BD/</url>
+      
+        <content type="html"><![CDATA[<p>Blog的文章写多了，查找会是一件很麻烦的事情。标签的归档、分类只能起到一丁点的作用。<br>所以就需要一种高效快捷的方法——搜索</p><p>Swiftype 现在要钱了，不过有一段的试用期。<br>Algolia 还可以，在国外，速度比Swiftype块些<br>Local Search 站内搜索，不用我多说了吧?</p><h1 id="安装Local-Search"><a href="#安装Local-Search" class="headerlink" title="安装Local Search"></a>安装Local Search</h1><p>在Cmd输入下列指令</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-generator-searchdb --save</span><br><span class="line">$ npm install hexo-generator-search --save</span><br></pre></td></tr></table></figure><p>输入完了以后打开主题配置_config.yml<br>找到 Local_Search 这一行，把<br><code>enable: false</code>改为<code>enable: true</code></p><p><img src="https://s2.ax1x.com/2020/03/11/8AF7KP.png" alt="8AF7KP.png"></p><p>然后</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ Hexo g</span><br><span class="line">$ Hexo s</span><br></pre></td></tr></table></figure><p>打开Blog就可以看到旁边有个搜索(Search)了</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何使用来必力评论</title>
+      <link href="/2020/03/10/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E6%9D%A5%E5%BF%85%E5%8A%9B%E8%AF%84%E8%AE%BA/"/>
+      <url>/2020/03/10/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E6%9D%A5%E5%BF%85%E5%8A%9B%E8%AF%84%E8%AE%BA/</url>
+      
+        <content type="html"><![CDATA[<h1 id="注册账号"><a href="#注册账号" class="headerlink" title="注册账号"></a>注册账号</h1><p>打开<a href="http://livere.com/" target="_blank" rel="noopener">来必力</a>官网，点击”安装”</p><p><img src="https://s2.ax1x.com/2020/03/10/8PvF58.md.png" alt="8PvF58.md.png"></p><p>然后点击City版本(有钱的直接选择Premium吧awa)点击现在安装。</p><p><img src="https://s2.ax1x.com/2020/03/10/8Pv9bt.png" alt="8Pv9bt.png"></p><p>然后就打开了登陆页面，不过先注册个账号。点击”来必力注册”按钮</p><p><img src="https://s2.ax1x.com/2020/03/10/8PvSKA.md.png" alt="8PvSKA.md.png"></p><p>然后输入你的 “邮箱”,”名称”,”密码”，再把”我已同意并确认 [服务事使用条款] “和”我已同意并确认 [个人信息处理方针] “给按了。</p><p><img src="https://s2.ax1x.com/2020/03/10/8PviUf.png" alt="8PviUf.png"></p><p>接着会出现一个页面，都是韩文，不过不用理，中间的框框翻译过来就是要输入验证码的意思。<br>去邮箱里面找找有没有一个叫做LiveRe的邮件，没有去垃圾箱找找。把验证码给填上。</p><p><img src="https://s2.ax1x.com/2020/03/10/8Pz7bn.png" alt="8Pz7bn.png"></p><h1 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h1><p>输入一下你的网站信息就OK了</p><p>完了以后跳转到一个页面。叫你把Js代码给弄上，不过不需要。找到data-uid</p><p><img src="https://s2.ax1x.com/2020/03/10/8iScM4.md.png" alt="8iScM4.md.png"></p><p>记住这个UID。打开你的主题_config，找到livere_uid这一项，把注释去掉。后面写你的uid<br><code>livere_uid: 你的data-uid</code></p><p><img src="https://s2.ax1x.com/2020/03/10/8ipI7n.png" alt="8ipI7n.png"></p><p>填上以后就可以啦！</p><h1 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h1><p><img src="https://s2.ax1x.com/2020/03/10/8i9wCV.md.png" alt="8i9wCV.md.png"></p><p>华丽的分割线=====-o——————————o-=====华丽的分割线</p><p><img src="https://s2.ax1x.com/2020/03/10/8i9UNq.md.png" alt="8i9UNq.md.png"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何使用Littleskin我的世界皮肤站</title>
+      <link href="/2020/03/09/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Littleskin/"/>
+      <url>/2020/03/09/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Littleskin/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Littleskin是什么？"><a href="#Littleskin是什么？" class="headerlink" title="Littleskin是什么？"></a>Littleskin是什么？</h1><p>Littskin是一个公益免费的皮肤站，基于<a href="https://github.com/bs-community/blessing-skin-server" target="_blank" rel="noopener">BS</a>制作。</p><p>基于BS的好处有：</p><ul><li>插件多</li><li>不用MOD</li><li>加入 <a href="https://www.mcmod.cn/class/883.html" target="_blank" rel="noopener">CustomSkinLoader</a> 默认加载列表豪华午餐。</li></ul><h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><h2 id="注册"><a href="#注册" class="headerlink" title="注册"></a>注册</h2><p>打开 <a href="https://littleskin.cn" target="_blank" rel="noopener">Littleskin</a>，注册个Littleskin的账号<br><img src="https://s2.ax1x.com/2020/03/09/8piTgg.png" alt="8piTgg.png"></p><p><img src="https://i.loli.net/2020/03/09/l5g3yNCXxtPAMpU.png" alt="Register2.png"></p><h2 id="登陆"><a href="#登陆" class="headerlink" title="登陆"></a>登陆</h2><p>注册然后登陆你的账户，然后过一会，你的邮箱会有一个名为”Mcskin”的邮件<br>打开，然后点击链接完成验证。<br><img src="https://s2.ax1x.com/2020/03/09/8pifEt.png" alt="8pifEt.png"></p><p>如果没有邮件的话，去<a href="https://littleskin.cn/user" target="_blank" rel="noopener">用户中心</a>，仪表盘，左上角有个”重新发送邮件”。</p><h1 id="找皮肤"><a href="#找皮肤" class="headerlink" title="找皮肤"></a>找皮肤</h1><p>打开<a href="https://littleskin.cn/skinlib" target="_blank" rel="noopener">皮肤库</a>就可以自己找皮肤了。<br><img src="https://s2.ax1x.com/2020/03/09/8pibuj.md.png" alt="8pibuj.md.png"></p><p>随便选一个，然后点击皮肤</p><p><img src="https://s2.ax1x.com/2020/03/09/8pApnJ.md.png" alt="8pApnJ.md.png"></p><p>然后点击”添加衣柜”</p><p><img src="https://s2.ax1x.com/2020/03/09/8pAgu4.md.png" alt="8pAgu4.md.png"></p><h1 id="使用皮肤"><a href="#使用皮肤" class="headerlink" title="使用皮肤"></a>使用皮肤</h1><p>点击你的头像，用户中心。<br><img src="https://s2.ax1x.com/2020/03/09/8pA7vD.png" alt="8pA7vD.png"></p><p>打开以后看侧边栏，有一个”角色管理”。</p><p><img src="https://s2.ax1x.com/2020/03/09/8pEhLQ.png" alt="8pEhLQ.png"></p><p>创建一个角色。</p><p><img src="https://s2.ax1x.com/2020/03/09/8pVKYt.png" alt="8pVKYt.png"></p><p><img src="https://s2.ax1x.com/2020/03/09/8pVrXF.png" alt="8pVrXF.png"></p><p>接着打开衣柜。</p><p><img src="https://s2.ax1x.com/2020/03/09/8pVv1f.png" alt="8pVv1f.png"></p><p><img src="https://s2.ax1x.com/2020/03/09/8pZ89x.md.png" alt="8pZ89x.md.png"></p><p>使用你创建的角色即可！</p><h1 id="登陆游戏"><a href="#登陆游戏" class="headerlink" title="登陆游戏"></a>登陆游戏</h1><p>(注意要用HMCL或者其他支持外置登陆的启动器)</p><p>打开HMCL，点击左上的头像。<br>点击 “+” 号</p><p><img src="https://s2.ax1x.com/2020/03/09/8peEad.md.png" alt="8peEad.md.png"></p><p>再次点击 “+” 号。</p><p><img src="https://s2.ax1x.com/2020/03/09/8peAVH.md.png" alt="8peAVH.md.png"></p><p>然后添加认证服务器</p><p><img src="https://s2.ax1x.com/2020/03/09/8pe9xK.png" alt="8pe9xK.png"></p><p><img src="https://s2.ax1x.com/2020/03/09/8peFqe.png" alt="8peFqe.png"></p><p>输入你的邮箱和Littleskin的密码。</p><p><img src="https://s2.ax1x.com/2020/03/09/8peirD.png" alt="8peirD.png"></p><p>最后打开游戏就可以看到你的皮肤啦！</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Course </tag>
+            
+            <tag> Minecraft </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>为你的博客添加一个Live2d看板娘</title>
+      <link href="/2020/02/01/%E4%B8%BA%E4%BD%A0%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E4%B8%80%E4%B8%AALive2d%E7%9C%8B%E6%9D%BF%E5%A8%98/"/>
+      <url>/2020/02/01/%E4%B8%BA%E4%BD%A0%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E4%B8%80%E4%B8%AALive2d%E7%9C%8B%E6%9D%BF%E5%A8%98/</url>
+      
+        <content type="html"><![CDATA[<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><p>Git<br>Live2d的模型(后面会发)</p><h1 id="下载Live2d插件"><a href="#下载Live2d插件" class="headerlink" title="下载Live2d插件"></a>下载Live2d插件</h1><p>先检查有没有装live2d插件，如何查看插件是否安装了呢？<br>打开根目录下的”package.json”文件，查看里面有没有”hexo-helper-live2d”<br>如果有，请重新安装live2d：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm unistall hexo-helper-live2d</span><br><span class="line">$ npm install hexo-helper-liv2d</span><br></pre></td></tr></table></figure><p>然后去”node_modules”文件夹里面查看有没有一个叫做”live2d-widget”的文件夹。<br>如果有，就安装成功了。</p><h1 id="下载模型并配置-model"><a href="#下载模型并配置-model" class="headerlink" title="下载模型并配置(model)"></a>下载模型并配置(model)</h1><p>去github<a href="https://github.com/xiazeyu/live2d-widget-models.git" target="_blank" rel="noopener">下载</a>大佬的模型<br>下载完了以后把packages里面的随便一个文件夹复制到”node_modules”文件夹里。</p><p>复制完以后打开根目录下的”_config.yml”<br>拉到最底下复制粘贴</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">live2d:</span><br><span class="line">  enable: true</span><br><span class="line">  pluginModelPath: assets&#x2F;</span><br><span class="line">  model:</span><br><span class="line">    use: live2d-widget-model-epsilon2_1  #模板目录，在node_modules里</span><br><span class="line">  display:</span><br><span class="line">    position: right</span><br><span class="line">    width: 150 </span><br><span class="line">    height: 300</span><br><span class="line">  mobile:</span><br><span class="line">    show: false  #是否在手机进行显示</span><br></pre></td></tr></table></figure><h1 id="预览"><a href="#预览" class="headerlink" title="预览"></a>预览</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br><span class="line">$ hexo s</span><br></pre></td></tr></table></figure><p>查看Live2d效果</p><p>(我是不会告诉你们我的是其他版的:D)</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> Course </tag>
+            
+            <tag> Live2d </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>更换Hexo主题并部署到github</title>
+      <link href="/2020/01/28/%E6%9B%B4%E6%8D%A2Hexo%E4%B8%BB%E9%A2%98%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/"/>
+      <url>/2020/01/28/%E6%9B%B4%E6%8D%A2Hexo%E4%B8%BB%E9%A2%98%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/</url>
+      
+        <content type="html"><![CDATA[<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><p><a href="https://git-scm.com/download/win" target="_blank" rel="noopener">Git</a></p><h1 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h1><h2 id="选择"><a href="#选择" class="headerlink" title="选择"></a>选择</h2><p>建议使用Next，因为可扩展性强（而且网上教程一大坨）。，可以做出各种乱七八糟的玩意。当然，你也可以使用其他的，不过这里针对的是Next。<br>分别输入下列代码：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ cd 你的blog文件夹</span><br><span class="line">$ cd themes</span><br><span class="line">$ git clone https:&#x2F;&#x2F;github.com&#x2F;iissnan&#x2F;hexo-theme-next</span><br></pre></td></tr></table></figure><h2 id="预览"><a href="#预览" class="headerlink" title="预览"></a>预览</h2><p>下载完以后开启blog文件夹，点开里面_config.yml，<br>拉到底下。找到一个叫做themes: xxx的，把xxx改为hexo-themes-next。<br>然后开启hexo，就可以看到主题样子了。</p><h1 id="部署到github"><a href="#部署到github" class="headerlink" title="部署到github"></a>部署到github</h1><p>上传到github让更多人看到。</p><h2 id="创建和设置SSH-Key"><a href="#创建和设置SSH-Key" class="headerlink" title="创建和设置SSH Key"></a>创建和设置SSH Key</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C &quot;你的邮箱&quot;</span><br></pre></td></tr></table></figure><p>然后打开C:/Usere/你的用户名/.ssh/<br>会发现里面有id_rsa和id_rsa.pub这两个东西。<br>再打开<a href="https://github.com" target="_blank" rel="noopener">github</a><br>然后点击你的头像，里面有个”settings”的选项，点击<br>点击完以后打开里面的”SSH and GPG keys”这个选项。点击右上角的”New SSH Key”，然后把id_rsa.pub的内容全部复制到文本框里面。</p><h2 id="下载部署插件"><a href="#下载部署插件" class="headerlink" title="下载部署插件"></a>下载部署插件</h2><p>下载一个叫做”hexo-deployer-git”的插件<br>在cmd输入以下指令</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git</span><br></pre></td></tr></table></figure><p>完成</p><h2 id="开始部署"><a href="#开始部署" class="headerlink" title="开始部署"></a>开始部署</h2><p>打开你的Blog文件夹，找到”_cofig.yml”的文件，打开，拉到最底下，修改里面的deploy为以下格式</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: &#39;git&#39;</span><br><span class="line">  repository: https:&#x2F;&#x2F;github.com&#x2F;你的用户名&#x2F;你的用户名.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure><p>然后打开cmd，输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ cd 你的blog文件夹(如果已经进入则可以不输入)</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure><p>然后等待一会儿，然后打开 你的用户名.github.io</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> Course </tag>
+            
+            <tag> github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何创建Hexo博客</title>
+      <link href="/2020/01/27/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2020/01/27/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/</url>
+      
+        <content type="html"><![CDATA[<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><p><a href="https://npm.taobao.org/mirrors/node/v12.14.1/node-v12.14.1-x64.msi" target="_blank" rel="noopener">NodeJs</a><br><a href="https://git-scm.com/download/win" target="_blank" rel="noopener">Git</a>(这个以后文章会到，现在随你下载。)</p><h1 id="下载和安装Hexo"><a href="#下载和安装Hexo" class="headerlink" title="下载和安装Hexo"></a>下载和安装Hexo</h1><h2 id="下载安装Node-Js"><a href="#下载安装Node-Js" class="headerlink" title="下载安装Node.Js"></a>下载安装Node.Js</h2><p>下载Node.js下载完以后安装，安装目录什么的自己选。<br>选完目录一直”Next”按钮。安装完以后就要下载Hexo并安装了。</p><h2 id="下载并初始化Hexo"><a href="#下载并初始化Hexo" class="headerlink" title="下载并初始化Hexo"></a>下载并初始化Hexo</h2><p>安装完以后要用npm下载Hexo了(当然也可用官方镜像cnpm下载。)<br>首先创建一个文件夹，然后在cmd输入下列代码：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> 文件夹的名字</span><br><span class="line">$ npm install -g hexo-cil</span><br></pre></td></tr></table></figure><p>然后进行初始化，</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init</span><br></pre></td></tr></table></figure><h2 id="预览效果"><a href="#预览效果" class="headerlink" title="预览效果"></a>预览效果</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>然后在浏览器打开<a href="localhost:4000">这个网址</a>就可以看到你的Blog了</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> Course </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
