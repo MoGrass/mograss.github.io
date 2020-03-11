@@ -148,7 +148,11 @@
 
   <div class="container sidebar-position-left 
   page-home">
-    <div class="headband"></div>
+    <div class="headband">
+	
+	<a href="https://github.com/MoGrass" target="_blank" rel="noopener" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+	
+	</div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
@@ -352,6 +356,25 @@
           
 
           
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  165
+                </span>
+              
+
+              
+
+              
+            </div>
+          
 
           
 
@@ -373,7 +396,8 @@
           Blog的文章写多了，查找会是一件很麻烦的事情。标签的归档、分类只能起到一丁点的作用。所以就需要一种高效快捷的方法——搜索
 Swiftype 现在要钱了，不过有一段的试用期。Algolia 还可以，在国外，速度比Swiftype块些Local Search 站内搜索，不用我多说了吧?
 安装Local Search在Cmd输入下列指令
-12$ npm install hexo-generator-s
+12$ npm install hexo-generator-searchdb --save$ npm install hexo-generator-search --save
+输入完了以后打开主题配置_config.yml找到 Local_Search 这一行，
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -481,6 +505,25 @@ Swiftype 现在要钱了，不过有一段的试用期。Algolia 还可以，在
           
 
           
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  284
+                </span>
+              
+
+              
+
+              
+            </div>
+          
 
           
 
@@ -507,7 +550,10 @@ Swiftype 现在要钱了，不过有一段的试用期。Algolia 还可以，在
 
 然后输入你的 “邮箱”,”名称”,”密码”，再把”我已同意并确认 [服务事使用条款] “和”我已同意并确认 [个人信息处理方针] “给按了。
 
-接着会出现一个页面，都是韩文，不过不用理，中间的框框翻译过来就是要输入验
+接着会出现一个页面，都是韩文，不过不用理，中间的框框翻译过来就是要输入验证码的意思。去邮箱里面找找有没有一个叫做LiveRe的邮件，没有去垃圾箱找找。把验证码给填上。
+
+配置输入一下你的网站信息就OK了
+完了以后跳转到一个页面。叫你把Js代码给弄上，不过不需要。找到dat
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -615,6 +661,25 @@ Swiftype 现在要钱了，不过有一段的试用期。Algolia 还可以，在
           
 
           
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  297
+                </span>
+              
+
+              
+
+              
+            </div>
+          
 
           
 
@@ -643,7 +708,14 @@ Swiftype 现在要钱了，不过有一段的试用期。Algolia 还可以，在
 使用方法注册打开 Littleskin，注册个Littleskin的账号
 
 登陆注册然后登陆你的账户，然后过一会，你的邮箱会有一个名为”Mcskin”的邮件打开，然后点击链接完成验证。
-如果没有邮件的话，去用
+如果没有邮件的话，去用户中心，仪表盘，左上角有个”重新发送邮件”。
+找皮肤打开皮肤库就可以自己找皮肤了。
+随便选一个，然后点击皮肤
+
+然后点击”添加衣柜”
+
+使用皮肤点击你的头像，用户中心。
+打开以后看侧边栏，有一个”角色
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -751,6 +823,25 @@ Swiftype 现在要钱了，不过有一段的试用期。Algolia 还可以，在
           
 
           
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  243
+                </span>
+              
+
+              
+
+              
+            </div>
+          
 
           
 
@@ -772,7 +863,8 @@ Swiftype 现在要钱了，不过有一段的试用期。Algolia 还可以，在
           准备工作GitLive2d的模型(后面会发)
 下载Live2d插件先检查有没有装live2d插件，如何查看插件是否安装了呢？打开根目录下的”package.json”文件，查看里面有没有”hexo-helper-live2d”如果有，请重新安装live2d：
 12$ npm unistall hexo-helper-live2d$ npm install hexo-helper-liv2d
-然后去
+然后去”node_modules”文件夹里面查看有没有一个叫做”live2d-widget”的文件夹。如果有，就安装成功了。
+下载模型并配置(model)去github下载大佬的模型下载完了以后把packa
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -880,6 +972,25 @@ Swiftype 现在要钱了，不过有一段的试用期。Algolia 还可以，在
           
 
           
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  419
+                </span>
+              
+
+              
+
+              
+            </div>
+          
 
           
 
@@ -902,7 +1013,8 @@ Swiftype 现在要钱了，不过有一段的试用期。Algolia 还可以，在
 安装主题选择建议使用Next，因为可扩展性强（而且网上教程一大坨）。，可以做出各种乱七八糟的玩意。当然，你也可以使用其他的，不过这里针对的是Next。分别输入下列代码：
 123$ cd 你的blog文件夹$ cd themes$ git clone https:&#x2F;&#x2F;github.com&#x2F;iissnan&#x2F;hexo-theme-next
 
-预览下
+预览下载完以后开启blog文件夹，点开里面_config.yml，拉到底下。找到一个叫做themes: xxx的，把xxx改为hexo-themes-next。然后开启hexo，就可以看到主题样子了。
+部署
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -1010,6 +1122,25 @@ Swiftype 现在要钱了，不过有一段的试用期。Algolia 还可以，在
           
 
           
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  171
+                </span>
+              
+
+              
+
+              
+            </div>
+          
 
           
 
@@ -1031,8 +1162,13 @@ Swiftype 现在要钱了，不过有一段的试用期。Algolia 还可以，在
           准备工作NodeJsGit(这个以后文章会到，现在随你下载。)
 下载和安装Hexo下载安装Node.Js下载Node.js下载完以后安装，安装目录什么的自己选。选完目录一直”Next”按钮。安装完以后就要下载Hexo并安装了。
 下载并初始化Hexo安装完以后要用npm下载Hexo了(当然也可用官方镜像cnpm下载。)首先创建一个文件夹，然后在cmd输入下列代码：
-12$ cd 文件夹的名字$ np
-          ...
+12$ cd 文件夹的名字$ npm install -g hexo-cil
+然后进行初始化，
+1$ hexo init
+预览效果1hexo s
+然后在浏览器打开这个网址就可以看到你的Blog了
+
+          
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2020/01/27/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/#more" rel="contents">
@@ -1215,7 +1351,7 @@ Swiftype 现在要钱了，不过有一段的试用期。Algolia 还可以，在
 
         
 <div class="busuanzi-count">
-  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
   
     <span class="site-uv">
