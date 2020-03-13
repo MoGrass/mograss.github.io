@@ -80,7 +80,7 @@
 
 
 
-  <meta name="keywords" content="hexo,Course,Live2d," />
+  <meta name="keywords" content="hexo,Course," />
 
 
 
@@ -93,19 +93,20 @@
 
 
 
-<meta name="description" content="准备工作GitLive2d的模型(后面会发) 下载Live2d插件先检查有没有装live2d插件，如何查看插件是否安装了呢？打开根目录下的”package.json”文件，查看里面有没有”hexo-helper-live2d”如果有，请重新安装live2d： 12$ npm unistall hexo-helper-live2d$ npm install hexo-helper-liv2d 然后去">
+<meta name="description" content="Blog的文章写多了，查找会是一件很麻烦的事情。标签的归档、分类只能起到一丁点的作用。所以就需要一种高效快捷的方法——搜索 Swiftype 现在要钱了，不过有一段的试用期。Algolia 还可以，在国外，速度比Swiftype块些Local Search 站内搜索，不用我多说了吧? 安装Local Search在Cmd输入下列指令 12$ npm install hexo-generator-s">
 <meta property="og:type" content="article">
-<meta property="og:title" content="为你的博客添加一个Live2d看板娘">
-<meta property="og:url" content="http://mograss.github.io/2020/02/01/%E4%B8%BA%E4%BD%A0%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E4%B8%80%E4%B8%AALive2d%E7%9C%8B%E6%9D%BF%E5%A8%98/index.html">
+<meta property="og:title" content="NexT集成站内搜索(Local_Search)功能">
+<meta property="og:url" content="http://mograss.github.io/post/%E4%BD%BF%E7%94%A8%E7%AB%99%E5%86%85Local-Search%E5%8A%9F%E8%83%BD/index.html">
 <meta property="og:site_name" content="Huaunlanの物語">
-<meta property="og:description" content="准备工作GitLive2d的模型(后面会发) 下载Live2d插件先检查有没有装live2d插件，如何查看插件是否安装了呢？打开根目录下的”package.json”文件，查看里面有没有”hexo-helper-live2d”如果有，请重新安装live2d： 12$ npm unistall hexo-helper-live2d$ npm install hexo-helper-liv2d 然后去">
-<meta property="article:published_time" content="2020-02-01T06:13:13.000Z">
-<meta property="article:modified_time" content="2020-03-13T09:51:18.909Z">
+<meta property="og:description" content="Blog的文章写多了，查找会是一件很麻烦的事情。标签的归档、分类只能起到一丁点的作用。所以就需要一种高效快捷的方法——搜索 Swiftype 现在要钱了，不过有一段的试用期。Algolia 还可以，在国外，速度比Swiftype块些Local Search 站内搜索，不用我多说了吧? 安装Local Search在Cmd输入下列指令 12$ npm install hexo-generator-s">
+<meta property="og:image" content="https://s2.ax1x.com/2020/03/11/8AF7KP.png">
+<meta property="article:published_time" content="2020-03-11T06:34:00.000Z">
+<meta property="article:modified_time" content="2020-03-13T09:51:06.394Z">
 <meta property="article:author" content="Huanlan">
 <meta property="article:tag" content="hexo">
 <meta property="article:tag" content="Course">
-<meta property="article:tag" content="Live2d">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://s2.ax1x.com/2020/03/11/8AF7KP.png">
 
 
 
@@ -135,13 +136,13 @@
 
 
 
-  <link rel="canonical" href="http://mograss.github.io/2020/02/01/为你的博客添加一个Live2d看板娘/"/>
+  <link rel="canonical" href="http://mograss.github.io/post/使用站内Local-Search功能/"/>
 
 
 
 
 
-  <title>为你的博客添加一个Live2d看板娘 | Huaunlanの物語</title>
+  <title>NexT集成站内搜索(Local_Search)功能 | Huaunlanの物語</title>
   
 
 
@@ -326,7 +327,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://mograss.github.io/2020/02/01/%E4%B8%BA%E4%BD%A0%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E4%B8%80%E4%B8%AALive2d%E7%9C%8B%E6%9D%BF%E5%A8%98/">
+    <link itemprop="mainEntityOfPage" href="http://mograss.github.io/post/%E4%BD%BF%E7%94%A8%E7%AB%99%E5%86%85Local-Search%E5%8A%9F%E8%83%BD/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Huanlan">
@@ -343,7 +344,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">为你的博客添加一个Live2d看板娘</h1>
+          <h1 class="post-title" itemprop="name headline">NexT集成站内搜索(Local_Search)功能</h1>
         
 
         <div class="post-meta">
@@ -367,8 +368,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-01T14:13:13+08:00">
-                2020-02-01
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-11T14:34:00+08:00">
+                2020-03-11
               </time>
             
 
@@ -404,7 +405,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  243
+                  165
                 </span>
               
 
@@ -441,16 +442,15 @@
       
 
       
-        <h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><p>Git<br>Live2d的模型(后面会发)</p>
-<h1 id="下载Live2d插件"><a href="#下载Live2d插件" class="headerlink" title="下载Live2d插件"></a>下载Live2d插件</h1><p>先检查有没有装live2d插件，如何查看插件是否安装了呢？<br>打开根目录下的”package.json”文件，查看里面有没有”hexo-helper-live2d”<br>如果有，请重新安装live2d：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm unistall hexo-helper-live2d</span><br><span class="line">$ npm install hexo-helper-liv2d</span><br></pre></td></tr></table></figure>
-<p>然后去”node_modules”文件夹里面查看有没有一个叫做”live2d-widget”的文件夹。<br>如果有，就安装成功了。</p>
-<h1 id="下载模型并配置-model"><a href="#下载模型并配置-model" class="headerlink" title="下载模型并配置(model)"></a>下载模型并配置(model)</h1><p>去github<a href="https://github.com/xiazeyu/live2d-widget-models.git" target="_blank" rel="noopener">下载</a>大佬的模型<br>下载完了以后把packages里面的随便一个文件夹复制到”node_modules”文件夹里。</p>
-<p>复制完以后打开根目录下的”_config.yml”<br>拉到最底下复制粘贴</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">live2d:</span><br><span class="line">  enable: true</span><br><span class="line">  pluginModelPath: assets&#x2F;</span><br><span class="line">  model:</span><br><span class="line">    use: live2d-widget-model-epsilon2_1  #模板目录，在node_modules里</span><br><span class="line">  display:</span><br><span class="line">    position: right</span><br><span class="line">    width: 150 </span><br><span class="line">    height: 300</span><br><span class="line">  mobile:</span><br><span class="line">    show: false  #是否在手机进行显示</span><br></pre></td></tr></table></figure>
-<h1 id="预览"><a href="#预览" class="headerlink" title="预览"></a>预览</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
-<p>查看Live2d效果</p>
-<p>(我是不会告诉你们我的是其他版的:D)</p>
+        <p>Blog的文章写多了，查找会是一件很麻烦的事情。标签的归档、分类只能起到一丁点的作用。<br>所以就需要一种高效快捷的方法——搜索</p>
+<p>Swiftype 现在要钱了，不过有一段的试用期。<br>Algolia 还可以，在国外，速度比Swiftype块些<br>Local Search 站内搜索，不用我多说了吧?</p>
+<h1 id="安装Local-Search"><a href="#安装Local-Search" class="headerlink" title="安装Local Search"></a>安装Local Search</h1><p>在Cmd输入下列指令</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-generator-searchdb --save</span><br><span class="line">$ npm install hexo-generator-search --save</span><br></pre></td></tr></table></figure>
+<p>输入完了以后打开主题配置_config.yml<br>找到 Local_Search 这一行，把<br><code>enable: false</code>改为<code>enable: true</code></p>
+<p><img src="https://s2.ax1x.com/2020/03/11/8AF7KP.png" alt="8AF7KP.png"></p>
+<p>然后</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ Hexo g</span><br><span class="line">$ Hexo s</span><br></pre></td></tr></table></figure>
+<p>打开Blog就可以看到旁边有个搜索(Search)了</p>
 
       
     </div>
@@ -471,8 +471,6 @@
             <a href="/tags/hexo/" rel="tag"># hexo</a>
           
             <a href="/tags/Course/" rel="tag"># Course</a>
-          
-            <a href="/tags/Live2d/" rel="tag"># Live2d</a>
           
         </div>
       
@@ -495,8 +493,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2020/01/28/%E6%9B%B4%E6%8D%A2Hexo%E4%B8%BB%E9%A2%98%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/" rel="next" title="更换Hexo主题并部署到github">
-                <i class="fa fa-chevron-left"></i> 更换Hexo主题并部署到github
+              <a href="/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E6%9D%A5%E5%BF%85%E5%8A%9B%E8%AF%84%E8%AE%BA/" rel="next" title="如何使用来必力评论">
+                <i class="fa fa-chevron-left"></i> 如何使用来必力评论
               </a>
             
           </div>
@@ -505,8 +503,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2020/03/09/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Littleskin/" rel="prev" title="如何使用Littleskin我的世界皮肤站">
-                如何使用Littleskin我的世界皮肤站 <i class="fa fa-chevron-right"></i>
+              <a href="/post/Menu%E4%BE%A7%E8%BE%B9%E6%A0%8F%E5%B0%8F%E5%9B%BE%E6%A0%87/" rel="prev" title="Menu侧边栏小图标">
+                Menu侧边栏小图标 <i class="fa fa-chevron-right"></i>
               </a>
             
 			
@@ -669,7 +667,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#准备工作"><span class="nav-number">1.</span> <span class="nav-text">准备工作</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#下载Live2d插件"><span class="nav-number">2.</span> <span class="nav-text">下载Live2d插件</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#下载模型并配置-model"><span class="nav-number">3.</span> <span class="nav-text">下载模型并配置(model)</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#预览"><span class="nav-number">4.</span> <span class="nav-text">预览</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#安装Local-Search"><span class="nav-number">1.</span> <span class="nav-text">安装Local Search</span></a></li></ol></div>
             
 
           </div>
@@ -840,6 +838,9 @@
 
 
 
+  
+  
+
 
 
 
@@ -874,6 +875,16 @@
   
   
     <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/three/three.min.js"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/three/canvas_lines.min.js"></script>
   
 
 
@@ -1309,7 +1320,6 @@
 <script type="text/javascript">
     loadlive2d("live2d", "/live2d/model/koharu/koharu.model.json");  //此处为你是用的模型文件，可以修改
 </script>
-<script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
 
 <!-- 页面点击小红心-->
 <script type="text/javascript" src="/js/src/love.js"></script>
