@@ -1057,24 +1057,20 @@ pre .javascript .function {
   margin: 10px;
 }
 .back-to-top {
-  box-sizing: border-box;
-  position: fixed;
-  bottom: -100px;
-  right: 30px;
-  z-index: 1050;
-  padding: 0 6px;
-  width: initial;
-  background: #222;
+  display: none;
+  margin: 20px -10px -20px;
+  background: #f5f7f9;
   font-size: 12px;
   opacity: 0.6;
-  color: #fff;
   cursor: pointer;
   text-align: center;
   -webkit-transform: translateZ(0);
-  transition-property: bottom;
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
+}
+.back-to-top:hover {
+  opacity: 0.8;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .back-to-top {
@@ -1087,7 +1083,7 @@ pre .javascript .function {
   }
 }
 .back-to-top.back-to-top-on {
-  bottom: 30px;
+  display: block;
 }
 .header {
   background: transparent;
@@ -1470,7 +1466,7 @@ pre .javascript .function {
   content: "";
   position: absolute;
   width: 100%;
-  height: 2px;
+  height: 1px;
   bottom: 0;
   left: 0;
   background-color: #000;
@@ -1841,7 +1837,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff98ff;
+  background: #9d2f50;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2828,8 +2824,8 @@ pre .javascript .function {
 }
 .menu .menu-item a:hover,
 .menu-item-active a {
-  background: #f9f9f9;
-  border-bottom-color: #fff;
+  background: rgba(177,177,177,0.58);
+  border-bottom-color: rgba(177,177,177,0.58);
 }
 .menu .menu-item br {
   display: none;
@@ -3010,7 +3006,10 @@ pre .javascript .function {
   }
 }
 body {
-  background: url("/images/background.jpg");
+  background: url("http://api.btstu.cn/sjbz/?lx=dongman");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .highlight {
   position: relative;
@@ -3045,4 +3044,10 @@ body {
 }
 .highlight:hover .btn-copy {
   opacity: 1;
+}
+.header-inner {
+  background: rgba(221,221,221,0.8);
+}
+.main-inner {
+  opacity: 0.8;
 }
