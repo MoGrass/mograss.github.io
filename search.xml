@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Github+jsdelivr+PicGo搭建超快速个人图床</title>
+    <url>/post/Build-Github-Images/</url>
+    <content><![CDATA[<blockquote>
+<p>花了1小时来写这篇文章，制作不易，评论一下吧。</p>
+</blockquote>
+<h1 id="设置Token"><a href="#设置Token" class="headerlink" title="设置Token"></a>设置Token</h1><p>首先，新建一个仓库</p>
+<p><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0.1/Build-A-New-Repo.png" alt="repo.png"></p>
+<p>不要勾选 “Private”。勾选了就不可以当图床了</p>
+<p><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0.1/Build-A-New-Repo2.png" alt="Repo2.png"></p>
+<p>然后去设置 Token，点你的”头像”(虽然我这里是显示不出来)，然后点击”Settings”</p>
+<p><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0.1/SetToken.png" alt="Token.png"></p>
+<p>选择Developer settings.</p>
+<p><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0.1/SetToken2.png" alt="Token2.png"></p>
+<p>接着选择Personal access tokens</p>
+<p><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0.1/SetToken3.png" alt="Token3.png"></p>
+<p>新建一个Token</p>
+<p><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0.1/SetToken4.png" alt="Repo4.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0.1/SetToken5.png" alt="Repo5.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0.1/SetToken6.png" alt="Repo6.png"></p>
+<p>弄完以后你会得到一个Token，记得保存好！这个Token只出现一次！刷新了就没了</p>
+<p><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0.1/SetToken7.png" alt="Repo7.png"></p>
+<h1 id="配置PicGo"><a href="#配置PicGo" class="headerlink" title="配置PicGo"></a>配置PicGo</h1><p>打开<a href="https://github.com/Molunerfinn/PicGo/releases" target="_blank" rel="noopener">PicGo官网</a>下载一个最新的PicGo</p>
+<p><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0.1.1/DownloadPicGo.png" alt="Picgo.png"></p>
+<p>安装完打开，设置一波。<br>先把Github的设置给弄下，要输入你的仓库，和分支(直接输入”Master”就ok了)，然后是Token.<br><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0.1.1/SetPicGo.png" alt="PicGo.png"></p>
+<p>然后把 Server 给关闭，不然的话上传不了图片</p>
+<p><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0.1.1/SetPicGo2.png" alt="PicGo2.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0.1.1/SetPicGo3.png" alt="PicGo3.png"></p>
+<p>然后就可以了。</p>
+<h1 id="创建Release"><a href="#创建Release" class="headerlink" title="创建Release"></a>创建Release</h1><p>不创建的话，自己享受Github加载图片的速度吧</p>
+<p><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0.1.1/SetRepo.png" alt="Repo.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0.1.1/SetRepo2.png" alt="Repo2.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0.1.1/SetRepoDone.png" alt="Repo3.png"></p>
+<p>然后就可以了</p>
+<h1 id="使用jsdelivr"><a href="#使用jsdelivr" class="headerlink" title="使用jsdelivr"></a>使用jsdelivr</h1><p>jsdelivr是世界上唯一一个免费CDN。支持Github加速、NPM、WORDPRESS<br>打开你的Post文件。在里面输入</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">![XXX.png](https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;Github名字&#x2F;仓库@版本号&#x2F;图片.png)</span><br></pre></td></tr></table></figure>
+<p>就可以使用了，比如上面的图片，你们可以按F12查看他们的来源。</p>
+]]></content>
+      <tags>
+        <tag>github</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Menu侧边栏小图标</title>
     <url>/post/Menu%E4%BE%A7%E8%BE%B9%E6%A0%8F%E5%B0%8F%E5%9B%BE%E6%A0%87/</url>
     <content><![CDATA[<h1 id="使用侧边栏小图标"><a href="#使用侧边栏小图标" class="headerlink" title="使用侧边栏小图标"></a>使用侧边栏小图标</h1><p>首先打开 <a href="http://www.fontawesome.com.cn/faicons/" target="_blank" rel="noopener">图标库</a> (<del><a href="http://www.fontawesome.com.cn/faicons/" target="_blank" rel="noopener">国内顶尖一流超级旋风霹雳图标库</a></del>)</p>
@@ -163,9 +205,9 @@
 <p>然后等待一会儿，然后打开 你的用户名.github.io</p>
 ]]></content>
       <tags>
+        <tag>github</tag>
         <tag>hexo</tag>
         <tag>Course</tag>
-        <tag>github</tag>
       </tags>
   </entry>
   <entry>

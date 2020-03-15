@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mograss.github.io/"/>
-  <updated>2020-03-13T10:00:27.063Z</updated>
+  <updated>2020-03-15T04:01:01.664Z</updated>
   <id>http://mograss.github.io/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Github+jsdelivr+PicGo搭建超快速个人图床</title>
+    <link href="http://mograss.github.io/post/Build-Github-Images/"/>
+    <id>http://mograss.github.io/post/Build-Github-Images/</id>
+    <published>2020-03-15T03:01:57.000Z</published>
+    <updated>2020-03-15T04:01:01.664Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>花了1小时来写这篇文章，制作不易，评论一下吧。</p></blockquote><h1 id="设置Token"><a href="#设置Token" class="headerlink" title="设置Token"></a>设置Token</h1><p>首先，新建一个仓库</p><p><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0.1/Build-A-New-Repo.png" alt="repo.png"></p><p>不要勾选 “Private”。勾选了就不可以当图床了</p><p><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0.1/Build-A-New-Repo2.png" alt="Repo2.png"></p><p>然后去设置 Token，点你的”头像”(虽然我这里是显示不出来)，然后点击”Settings”</p><p><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0.1/SetToken.png" alt="Token.png"></p><p>选择Developer settings.</p><p><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0.1/SetToken2.png" alt="Token2.png"></p><p>接着选择Personal access tokens</p><p><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0.1/SetToken3.png" alt="Token3.png"></p><p>新建一个Token</p><p><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0.1/SetToken4.png" alt="Repo4.png"></p><p><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0.1/SetToken5.png" alt="Repo5.png"></p><p><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0.1/SetToken6.png" alt="Repo6.png"></p><p>弄完以后你会得到一个Token，记得保存好！这个Token只出现一次！刷新了就没了</p><p><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0.1/SetToken7.png" alt="Repo7.png"></p><h1 id="配置PicGo"><a href="#配置PicGo" class="headerlink" title="配置PicGo"></a>配置PicGo</h1><p>打开<a href="https://github.com/Molunerfinn/PicGo/releases" target="_blank" rel="noopener">PicGo官网</a>下载一个最新的PicGo</p><p><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0.1.1/DownloadPicGo.png" alt="Picgo.png"></p><p>安装完打开，设置一波。<br>先把Github的设置给弄下，要输入你的仓库，和分支(直接输入”Master”就ok了)，然后是Token.<br><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0.1.1/SetPicGo.png" alt="PicGo.png"></p><p>然后把 Server 给关闭，不然的话上传不了图片</p><p><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0.1.1/SetPicGo2.png" alt="PicGo2.png"></p><p><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0.1.1/SetPicGo3.png" alt="PicGo3.png"></p><p>然后就可以了。</p><h1 id="创建Release"><a href="#创建Release" class="headerlink" title="创建Release"></a>创建Release</h1><p>不创建的话，自己享受Github加载图片的速度吧</p><p><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0.1.1/SetRepo.png" alt="Repo.png"></p><p><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0.1.1/SetRepo2.png" alt="Repo2.png"></p><p><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0.1.1/SetRepoDone.png" alt="Repo3.png"></p><p>然后就可以了</p><h1 id="使用jsdelivr"><a href="#使用jsdelivr" class="headerlink" title="使用jsdelivr"></a>使用jsdelivr</h1><p>jsdelivr是世界上唯一一个免费CDN。支持Github加速、NPM、WORDPRESS<br>打开你的Post文件。在里面输入</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![XXX.png](https:&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;gh&#x2F;Github名字&#x2F;仓库@版本号&#x2F;图片.png)</span><br></pre></td></tr></table></figure><p>就可以使用了，比如上面的图片，你们可以按F12查看他们的来源。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;花了1小时来写这篇文章，制作不易，评论一下吧。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;设置Token&quot;&gt;&lt;a href=&quot;#设置Token&quot; class=&quot;headerlink&quot; title=&quot;设置Token&quot;&gt;&lt;/a&gt;设置Token
+      
+    
+    </summary>
+    
+    
+    
+      <category term="github" scheme="http://mograss.github.io/tags/github/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Menu侧边栏小图标</title>
     <link href="http://mograss.github.io/post/Menu%E4%BE%A7%E8%BE%B9%E6%A0%8F%E5%B0%8F%E5%9B%BE%E6%A0%87/"/>
     <id>http://mograss.github.io/post/Menu%E4%BE%A7%E8%BE%B9%E6%A0%8F%E5%B0%8F%E5%9B%BE%E6%A0%87/</id>
     <published>2020-03-12T04:09:00.000Z</published>
-    <updated>2020-03-13T10:00:27.063Z</updated>
+    <updated>2020-03-15T02:53:53.374Z</updated>
     
     <content type="html"><![CDATA[<h1 id="使用侧边栏小图标"><a href="#使用侧边栏小图标" class="headerlink" title="使用侧边栏小图标"></a>使用侧边栏小图标</h1><p>首先打开 <a href="http://www.fontawesome.com.cn/faicons/" target="_blank" rel="noopener">图标库</a> (<del><a href="http://www.fontawesome.com.cn/faicons/" target="_blank" rel="noopener">国内顶尖一流超级旋风霹雳图标库</a></del>)</p><p>随便选一个图标，比如这个</p><p><img src="https://s1.ax1x.com/2020/03/12/8ZM3ZQ.png" alt="8ZM3ZQ.png"></p><p>记住他的名字！然后打开主题配置，找到menu这一栏。<br>比如我想替换 Home 的图标，找到<code>Home</code>改为<code>Comment</code></p><p><img src="https://s1.ax1x.com/2020/03/12/8ZMhLD.png" alt="8ZMhLD.png"></p><p><img src="https://s1.ax1x.com/2020/03/12/8ZMbWt.png" alt="8ZMbWt.png"></p><p>接着</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>就可以看到效果了！</p><p><img src="https://s1.ax1x.com/2020/03/12/8ZQKYR.png" alt="8ZQKYR.png"></p>]]></content>
     
@@ -47,7 +74,7 @@
     <link href="http://mograss.github.io/post/%E4%BD%BF%E7%94%A8%E7%AB%99%E5%86%85Local-Search%E5%8A%9F%E8%83%BD/"/>
     <id>http://mograss.github.io/post/%E4%BD%BF%E7%94%A8%E7%AB%99%E5%86%85Local-Search%E5%8A%9F%E8%83%BD/</id>
     <published>2020-03-11T06:34:00.000Z</published>
-    <updated>2020-03-14T03:25:13.909Z</updated>
+    <updated>2020-03-15T02:54:07.407Z</updated>
     
     <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>Blog的文章写多了，查找会是一件很麻烦的事情。标签的归档、分类只能起到一丁点的作用。<br>所以就需要一种高效快捷的方法——搜索</p><p>Swiftype 现在要钱了，不过有一段的试用期。<br>Algolia 还可以，在国外，速度比Swiftype块些</p><ul><li>Local Search 站内搜索，不用我多说了吧?</li></ul><h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><ul><li>Git</li><li>Nodejs</li><li>你的大脑 </li></ul><h1 id="安装Local-Search"><a href="#安装Local-Search" class="headerlink" title="安装Local Search"></a>安装Local Search</h1><p>在Cmd输入下列指令</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-generator-searchdb --save</span><br><span class="line">$ npm install hexo-generator-search --save</span><br></pre></td></tr></table></figure><p>输入完了以后打开主题配置_config.yml<br>找到 Local_Search 这一行，把<br><code>enable: false</code>改为<code>enable: true</code></p><p><img src="https://s2.ax1x.com/2020/03/11/8AF7KP.png" alt="8AF7KP.png"></p><p>然后</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ Hexo g</span><br><span class="line">$ Hexo s</span><br></pre></td></tr></table></figure><p>打开Blog就可以看到旁边有个搜索(Search)了</p>]]></content>
     
@@ -103,7 +130,7 @@
     <link href="http://mograss.github.io/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Littleskin/"/>
     <id>http://mograss.github.io/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Littleskin/</id>
     <published>2020-03-09T04:26:00.000Z</published>
-    <updated>2020-03-14T03:26:21.007Z</updated>
+    <updated>2020-03-15T02:53:53.377Z</updated>
     
     <content type="html"><![CDATA[<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><ul><li>什么也不需要</li></ul><h1 id="Littleskin是什么？"><a href="#Littleskin是什么？" class="headerlink" title="Littleskin是什么？"></a>Littleskin是什么？</h1><p>Littskin是一个公益免费的皮肤站，基于<a href="https://github.com/bs-community/blessing-skin-server" target="_blank" rel="noopener">BS</a>制作。</p><p>基于BS的好处有：</p><ul><li>插件多</li><li>不用MOD</li><li>加入 <a href="https://www.mcmod.cn/class/883.html" target="_blank" rel="noopener">CustomSkinLoader</a> 默认加载列表豪华午餐。</li></ul><h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><h2 id="注册"><a href="#注册" class="headerlink" title="注册"></a>注册</h2><p>打开 <a href="https://littleskin.cn" target="_blank" rel="noopener">Littleskin</a>，注册个Littleskin的账号<br><img src="https://s2.ax1x.com/2020/03/09/8piTgg.png" alt="8piTgg.png"></p><p><img src="https://i.loli.net/2020/03/09/l5g3yNCXxtPAMpU.png" alt="Register2.png"></p><h2 id="登陆"><a href="#登陆" class="headerlink" title="登陆"></a>登陆</h2><p>注册然后登陆你的账户，然后过一会，你的邮箱会有一个名为”Mcskin”的邮件<br>打开，然后点击链接完成验证。<br><img src="https://s2.ax1x.com/2020/03/09/8pifEt.png" alt="8pifEt.png"></p><p>如果没有邮件的话，去<a href="https://littleskin.cn/user" target="_blank" rel="noopener">用户中心</a>，仪表盘，左上角有个”重新发送邮件”。</p><h1 id="找皮肤"><a href="#找皮肤" class="headerlink" title="找皮肤"></a>找皮肤</h1><p>打开<a href="https://littleskin.cn/skinlib" target="_blank" rel="noopener">皮肤库</a>就可以自己找皮肤了。<br><img src="https://s2.ax1x.com/2020/03/09/8pibuj.md.png" alt="8pibuj.md.png"></p><p>随便选一个，然后点击皮肤</p><p><img src="https://s2.ax1x.com/2020/03/09/8pApnJ.md.png" alt="8pApnJ.md.png"></p><p>然后点击”添加衣柜”</p><p><img src="https://s2.ax1x.com/2020/03/09/8pAgu4.md.png" alt="8pAgu4.md.png"></p><h1 id="使用皮肤"><a href="#使用皮肤" class="headerlink" title="使用皮肤"></a>使用皮肤</h1><p>点击你的头像，用户中心。<br><img src="https://s2.ax1x.com/2020/03/09/8pA7vD.png" alt="8pA7vD.png"></p><p>打开以后看侧边栏，有一个”角色管理”。</p><p><img src="https://s2.ax1x.com/2020/03/09/8pEhLQ.png" alt="8pEhLQ.png"></p><p>创建一个角色。</p><p><img src="https://s2.ax1x.com/2020/03/09/8pVKYt.png" alt="8pVKYt.png"></p><p><img src="https://s2.ax1x.com/2020/03/09/8pVrXF.png" alt="8pVrXF.png"></p><p>接着打开衣柜。</p><p><img src="https://s2.ax1x.com/2020/03/09/8pVv1f.png" alt="8pVv1f.png"></p><p><img src="https://s2.ax1x.com/2020/03/09/8pZ89x.md.png" alt="8pZ89x.md.png"></p><p>使用你创建的角色即可！</p><h1 id="登陆游戏"><a href="#登陆游戏" class="headerlink" title="登陆游戏"></a>登陆游戏</h1><p>(注意要用HMCL或者其他支持外置登陆的启动器)</p><p>打开HMCL，点击左上的头像。<br>点击 “+” 号</p><p><img src="https://s2.ax1x.com/2020/03/09/8peEad.md.png" alt="8peEad.md.png"></p><p>再次点击 “+” 号。</p><p><img src="https://s2.ax1x.com/2020/03/09/8peAVH.md.png" alt="8peAVH.md.png"></p><p>然后添加认证服务器</p><p><img src="https://s2.ax1x.com/2020/03/09/8pe9xK.png" alt="8pe9xK.png"></p><p><img src="https://s2.ax1x.com/2020/03/09/8peFqe.png" alt="8peFqe.png"></p><p>输入你的邮箱和Littleskin的密码。</p><p><img src="https://s2.ax1x.com/2020/03/09/8peirD.png" alt="8peirD.png"></p><p>最后打开游戏就可以看到你的皮肤啦！</p>]]></content>
     
@@ -177,11 +204,11 @@
     
     
     
+      <category term="github" scheme="http://mograss.github.io/tags/github/"/>
+    
       <category term="hexo" scheme="http://mograss.github.io/tags/hexo/"/>
     
       <category term="Course" scheme="http://mograss.github.io/tags/Course/"/>
-    
-      <category term="github" scheme="http://mograss.github.io/tags/github/"/>
     
   </entry>
   
