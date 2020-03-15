@@ -44,7 +44,7 @@
   </entry>
   <entry>
     <title>Menu侧边栏小图标</title>
-    <url>/post/Menu%E4%BE%A7%E8%BE%B9%E6%A0%8F%E5%B0%8F%E5%9B%BE%E6%A0%87/</url>
+    <url>/post/Menu-Icons/</url>
     <content><![CDATA[<h1 id="使用侧边栏小图标"><a href="#使用侧边栏小图标" class="headerlink" title="使用侧边栏小图标"></a>使用侧边栏小图标</h1><p>首先打开 <a href="http://www.fontawesome.com.cn/faicons/" target="_blank" rel="noopener">图标库</a> (<del><a href="http://www.fontawesome.com.cn/faicons/" target="_blank" rel="noopener">国内顶尖一流超级旋风霹雳图标库</a></del>)</p>
 <p>随便选一个图标，比如这个</p>
 <p><img src="https://s1.ax1x.com/2020/03/12/8ZM3ZQ.png" alt="8ZM3ZQ.png"></p>
@@ -57,13 +57,13 @@
 <p><img src="https://s1.ax1x.com/2020/03/12/8ZQKYR.png" alt="8ZQKYR.png"></p>
 ]]></content>
       <tags>
-        <tag>hexo</tag>
         <tag>Course</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
     <title>NexT集成站内搜索(Local_Search)功能</title>
-    <url>/post/%E4%BD%BF%E7%94%A8%E7%AB%99%E5%86%85Local-Search%E5%8A%9F%E8%83%BD/</url>
+    <url>/post/Use-LocalSearch/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>Blog的文章写多了，查找会是一件很麻烦的事情。标签的归档、分类只能起到一丁点的作用。<br>所以就需要一种高效快捷的方法——搜索</p>
 <p>Swiftype 现在要钱了，不过有一段的试用期。<br>Algolia 还可以，在国外，速度比Swiftype块些</p>
 <ul>
@@ -83,13 +83,13 @@
 <p>打开Blog就可以看到旁边有个搜索(Search)了</p>
 ]]></content>
       <tags>
-        <tag>hexo</tag>
         <tag>Course</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
     <title>如何使用来必力评论</title>
-    <url>/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E6%9D%A5%E5%BF%85%E5%8A%9B%E8%AF%84%E8%AE%BA/</url>
+    <url>/post/Use-Livere/</url>
     <content><![CDATA[<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><ul>
 <li>什么也不需要</li>
 </ul>
@@ -111,13 +111,13 @@
 <p><img src="https://cdn.jsdelivr.net/gh/MoGrass/HImages@1.0/ConfigOK2.png" alt="SetConfigDone.png"></p>
 ]]></content>
       <tags>
-        <tag>hexo</tag>
         <tag>Course</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
     <title>如何使用Littleskin我的世界皮肤站</title>
-    <url>/post/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Littleskin/</url>
+    <url>/post/Use-Littleskin/</url>
     <content><![CDATA[<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><ul>
 <li>什么也不需要</li>
 </ul>
@@ -166,7 +166,7 @@
   </entry>
   <entry>
     <title>为你的博客添加一个Live2d看板娘</title>
-    <url>/post/%E4%B8%BA%E4%BD%A0%E7%9A%84%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E4%B8%80%E4%B8%AALive2d%E7%9C%8B%E6%9D%BF%E5%A8%98/</url>
+    <url>/post/Add-Live2d/</url>
     <content><![CDATA[<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><ul>
 <li>Git</li>
 <li>Live2d的模型(后面会发)<h1 id="下载Live2d插件"><a href="#下载Live2d插件" class="headerlink" title="下载Live2d插件"></a>下载Live2d插件</h1>先检查有没有装live2d插件，如何查看插件是否安装了呢？<br>打开根目录下的”package.json”文件，查看里面有没有”hexo-helper-live2d”<br>如果有，请重新安装live2d：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm unistall hexo-helper-live2d</span><br><span class="line">$ npm install hexo-helper-liv2d</span><br></pre></td></tr></table></figure>
@@ -179,14 +179,14 @@
 <p>(我是不会告诉你们我的是其他版的:D)</p>
 ]]></content>
       <tags>
-        <tag>hexo</tag>
         <tag>Course</tag>
         <tag>Live2d</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
     <title>更换Hexo主题并部署到github</title>
-    <url>/post/%E6%9B%B4%E6%8D%A2Hexo%E4%B8%BB%E9%A2%98%E5%B9%B6%E9%83%A8%E7%BD%B2%E5%88%B0github/</url>
+    <url>/post/replace-theme-upload-to-Github/</url>
     <content><![CDATA[<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><p><a href="https://git-scm.com/download/win" target="_blank" rel="noopener">Git</a></p>
 <h1 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h1><h2 id="选择"><a href="#选择" class="headerlink" title="选择"></a>选择</h2><p>建议使用Next，因为可扩展性强（而且网上教程一大坨）。，可以做出各种乱七八糟的玩意。当然，你也可以使用其他的，不过这里针对的是Next。<br>分别输入下列代码：</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ cd 你的blog文件夹</span><br><span class="line">$ cd themes</span><br><span class="line">$ git clone https:&#x2F;&#x2F;github.com&#x2F;iissnan&#x2F;hexo-theme-next</span><br></pre></td></tr></table></figure>
@@ -205,14 +205,14 @@
 <p>然后等待一会儿，然后打开 你的用户名.github.io</p>
 ]]></content>
       <tags>
-        <tag>github</tag>
-        <tag>hexo</tag>
         <tag>Course</tag>
+        <tag>hexo</tag>
+        <tag>github</tag>
       </tags>
   </entry>
   <entry>
     <title>如何创建Hexo博客</title>
-    <url>/post/%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BAHexo%E5%8D%9A%E5%AE%A2/</url>
+    <url>/post/Build-Hexo-Blog/</url>
     <content><![CDATA[<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><p><a href="https://npm.taobao.org/mirrors/node/v12.14.1/node-v12.14.1-x64.msi" target="_blank" rel="noopener">NodeJs</a><br><a href="https://git-scm.com/download/win" target="_blank" rel="noopener">Git</a>(这个以后文章会到，现在随你下载。)</p>
 <h1 id="下载和安装Hexo"><a href="#下载和安装Hexo" class="headerlink" title="下载和安装Hexo"></a>下载和安装Hexo</h1><h2 id="下载安装Node-Js"><a href="#下载安装Node-Js" class="headerlink" title="下载安装Node.Js"></a>下载安装Node.Js</h2><p>下载Node.js下载完以后安装，安装目录什么的自己选。<br>选完目录一直”Next”按钮。安装完以后就要下载Hexo并安装了。</p>
 <h2 id="下载并初始化Hexo"><a href="#下载并初始化Hexo" class="headerlink" title="下载并初始化Hexo"></a>下载并初始化Hexo</h2><p>安装完以后要用npm下载Hexo了(当然也可用官方镜像cnpm下载。)<br>首先创建一个文件夹，然后在cmd输入下列代码：</p>
@@ -223,8 +223,8 @@
 <p>然后在浏览器打开<a href="localhost:4000">这个网址</a>就可以看到你的Blog了</p>
 ]]></content>
       <tags>
-        <tag>hexo</tag>
         <tag>Course</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
 </search>
