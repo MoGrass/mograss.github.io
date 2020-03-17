@@ -178,9 +178,9 @@
     
       <category term="Course" scheme="http://mograss.github.io/tags/Course/"/>
     
-      <category term="hexo" scheme="http://mograss.github.io/tags/hexo/"/>
-    
       <category term="Live2d" scheme="http://mograss.github.io/tags/Live2d/"/>
+    
+      <category term="hexo" scheme="http://mograss.github.io/tags/hexo/"/>
     
   </entry>
   
@@ -206,9 +206,9 @@
     
       <category term="Course" scheme="http://mograss.github.io/tags/Course/"/>
     
-      <category term="github" scheme="http://mograss.github.io/tags/github/"/>
-    
       <category term="hexo" scheme="http://mograss.github.io/tags/hexo/"/>
+    
+      <category term="github" scheme="http://mograss.github.io/tags/github/"/>
     
   </entry>
   
