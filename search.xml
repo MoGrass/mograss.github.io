@@ -203,7 +203,7 @@
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-deployer-git</span><br></pre></td></tr></table></figure>
 <p>完成</p>
 <h2 id="开始部署"><a href="#开始部署" class="headerlink" title="开始部署"></a>开始部署</h2><p>打开你的Blog文件夹，找到”_cofig.yml”的文件，打开，拉到最底下，修改里面的deploy为以下格式</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: &#39;git&#39;</span><br><span class="line">  repository: https:&#x2F;&#x2F;github.com&#x2F;你的用户名&#x2F;你的用户名.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: &#39;git&#39;</span><br><span class="line">  repository: git@github.com:用户名&#x2F;用户名.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
 <p>然后打开cmd，输入</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ cd 你的blog文件夹(如果已经进入则可以不输入)</span><br><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
 <p>然后等待一会儿，然后打开 你的用户名.github.io</p>
